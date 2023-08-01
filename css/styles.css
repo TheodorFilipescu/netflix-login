@@ -1,0 +1,215 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #333;
+  height: 100vh;
+  overflow-x: hidden;
+  background-image: linear-gradient(to right, #1111116e 0%, #1111116e 100%), url('../images/netf-background.jpg');
+}
+
+::-moz-selection { /* Code for Firefox */
+  color: #fff;
+  background: #c20d0d;
+}
+
+::selection {
+  color: #fff;
+  background: #c20d0d;
+}
+
+body::-webkit-scrollbar {
+  width: 12px;               /* width of the entire scrollbar */
+  }
+  
+  body::-webkit-scrollbar-track {
+  background: #fffeff;        /* color of the tracking area */
+  
+  }
+  
+  body::-webkit-scrollbar-thumb {
+  background-color: #e1193e;    /* color of the scroll thumb */
+  border-radius: 20px;       /* roundness of the scroll thumb */
+  border: 2px solid #a3122d;  /* creates padding around scroll thumb */
+  }
+  
+  body::-webkit-scrollbar-thumb:hover {
+  background-color: #ee3153;    /* color of the scroll thumb */
+  border-radius: 20px;       /* roundness of the scroll thumb */
+  border: 2px solid #a3122d;  /* creates padding around scroll thumb */
+  }
+
+/***************/
+
+/* font-family: 'Staatliches', cursive; */
+
+/***************/
+
+.container-logo-section-total {
+  height: 120px;
+/*   background-color: green; */
+}
+
+.container-logo-section {
+  height: 120px;
+  max-width: 1550px;
+  margin: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.container-logo-section-elements {
+  height: 120px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.container-logo-section-el-img-asp {
+  width: auto;
+  height: 60px;
+  pointer-events: none;
+}
+
+
+/***********************************************/
+
+
+.container-login-total {
+  height: 700px;
+/*   background-color: red; */
+  margin-top: 40px;
+}
+
+.container-login-backdrop {
+  height: 700px;
+  width: 650px;
+  margin: auto;
+  background-color: #111111a2;
+  backdrop-filter: blur(10px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container-login {
+  height: 600px;
+  width: 500px;
+}
+
+.container-login-elements {
+  height: 600px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.container-login-el-h2-asp {
+  color: #fff;
+  font-weight: 600;
+  font-size: 36px;
+}
+
+.container-login-el-in-asp {
+  width: 100%;
+  outline: 0;
+  border: 0;
+  height: 60px;
+  font-family: 'Poppins', sans-serif;
+  color: #fff;
+  background-color: #3f3f3f;
+  font-size: 18px;
+  border-radius: 6px;
+}
+
+.spacing {
+  margin-bottom: 20px;
+}
+
+.container-login-el-btn-asp {
+  width: 100%;
+  cursor: pointer;
+  background-color: #c20d0d;
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+  border: 0;
+  height: 50px;
+  border-radius: 6px;
+  font-size: 18px;
+  margin-top: 40px;
+}
+
+.container-login-el-btn-asp:hover {
+  background-color: #e02323;
+  transition: 0.2s;
+}
+
+.container-login-el-check {
+/*   background-color: yellow; */
+  width: 100%;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 10px;
+}
+
+.container-login-el-check-1 {
+  height: 40px;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 4px;
+}
+
+.container-login-el-check-2 {
+  height: 40px;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.container-login-el-check-1-p-asp {
+  color: #7e7e7e;
+}
+
+.container-login-el-check-2-a-asp {
+  color: #7e7e7e;
+  text-decoration: none;
+}
+
+.container-login-el-check-2-a-asp:hover {
+  color: #bdbdbd;
+  transition: 0.2s;
+}
+
+.container-login-el-new-asp {
+  color: #7e7e7e;
+  font-size: 18px;
+  margin-top: 70px;
+  margin-bottom: 0;
+}
+
+.container-login-el-new-asp-a-asp {
+  color: #bdbdbd;
+  text-decoration: none;
+}
+
+.container-login-el-new-asp-a-asp:hover {
+  color: #f1f1f1;
+  transition: 0.2s;
+}
+
+.container-login-el-learn-asp {
+  color: #7e7e7e;
+}
+
+.container-login-el-learn-asp-a-asp {
+  color: rgb(35, 35, 201);
+  text-decoration: none;
+}
